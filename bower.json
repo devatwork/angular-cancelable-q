@@ -1,5 +1,5 @@
 {
-    "name": "cancelable-q",
+    "name": "angular-cancelable-q",
     "version": "0.0.1",
     "main": "src/cancelableq.js",
     "ignore": [

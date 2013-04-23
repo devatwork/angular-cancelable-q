@@ -1,7 +1,7 @@
 {
-	"name": "cancelable-q",
+	"name": "angular-cancelable-q",
 	"version": "0.0.1",
-	"description": "Provides a cancel method on promises created by the angular $q service.",
+	"description": "Provides a cancel method on promises created by the Angular $q service.",
 	"scripts": {
 		"test": "karma start --single-run --no-auto-watch"
 	},

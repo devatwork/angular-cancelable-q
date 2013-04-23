@@ -1,3 +1,3 @@
-# Cancelable $q
+# Angular Cancelable $q
 
-Provides a cancel method on promises created by the angular $q service.
+Provides a cancel method on promises created by the Angular $q service.
