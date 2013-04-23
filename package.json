@@ -5,6 +5,12 @@
 	"scripts": {
 		"test": "karma start --single-run --no-auto-watch"
 	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/trilobyte/angular-cancelable-q.git"
+	},
+	"author": "Bert Willems",
+	"license": "MIT",,
 	"readmeFilename": "README.md",
 	"devDependencies": {
 		"karma": "~0.8"
