@@ -2,7 +2,7 @@
 
 Provides a cancel method on promises created by the Angular $q service. It essentially adds a `cancel` method on the promise interface when asked to wrap a promise. You can use this library to cancel remote requests (well, no truely since the requests themselves are not canceled).
 
-Please note that this library is only useful as long as angular/angular.js#2452 has not made it into the version of Angular you are using.
+Please note that this library is only useful as long as [angular/angular.js#2452](https://github.com/angular/angular.js/pull/2452) has not made it into the version of Angular you are using.
 
 ## Usage
 
