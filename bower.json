@@ -1,13 +1,13 @@
 {
-    "name": "angular-cancelable-q",
-    "version": "0.0.1",
-    "main": "src/cancelableq.js",
-    "ignore": [
-        "**/.*",
-        "node_modules",
-        "components",
-        "lib"
-    ],
+	"name": "angular-cancelable-q",
+	"version": "0.0.1",
+	"main": "src/cancelableq.js",
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"components",
+		"lib"
+	],
 	"dependencies": {
 		"angular": "~1.0.6"
 	}
