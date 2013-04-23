@@ -1,4 +1,4 @@
-# Angular Cancelable $q
+# Angular Cancelable $q [![Build Status](https://travis-ci.org/trilobyte/angular-cancelable-q.png?branch=master)](https://travis-ci.org/trilobyte/angular-cancelable-q)
 
 Provides a cancel method on promises created by the Angular $q service. It essentially adds a `cancel` method on the promise interface when asked to wrap a promise. You can use this library to cancel remote requests (well, no truely since the requests themselves are not canceled).
 
