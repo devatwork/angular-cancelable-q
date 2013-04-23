@@ -32,6 +32,10 @@
 				 * @return {CancelablePromise}          Returns the wrapped {CancelablePromise}.
 				 */
 				'wrap': function(original) {
+					// if the original promise already contains a cancel method, do not override it
+					if (angular.isFunction(original.cancel)) return original;
+
+					// create a cancel deferred, a combined promise of original an cancelled and a wrapped defered which hides the combined api
 					var cancelDeferred = $q.defer(),
 						combined = $q.all([original, cancelDeferred.promise]),
 						wrapped = $q.defer();

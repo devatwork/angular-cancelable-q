@@ -100,7 +100,7 @@ describe('cancelableq', function() {
 		expect(logStr()).toBe('error(my reason)');
 	}));
 
-	/*it('should not wrap promises which already have a cancel method', inject(function($q, cancelableQ) {
+	it('should not wrap promises which already have a cancel method', inject(function($q, cancelableQ) {
 		// arrange
 		var original = $q.defer();
 		original.promise.cancel = function() {
@@ -110,6 +110,6 @@ describe('cancelableq', function() {
 		var actual = cancelableQ.wrap(original.promise);
 
 		// assert
-		expect(actual).toBe(original);
-	}));*/
+		expect(actual).toBe(original.promise);
+	}));
 });
