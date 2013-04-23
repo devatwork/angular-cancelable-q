@@ -10,7 +10,7 @@
 		"url": "git://github.com/trilobyte/angular-cancelable-q.git"
 	},
 	"author": "Bert Willems",
-	"license": "MIT",,
+	"license": "MIT",
 	"readmeFilename": "README.md",
 	"devDependencies": {
 		"karma": "~0.8"
